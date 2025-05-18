@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "nextjs-hono-better-auth-d1",
+  "main": "src/server/index.ts",
+  "compatibility_date": "2025-03-03",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "timeconnectv2",
+      "database_id": "f7f8447e-dfa5-4667-bd1e-b949fd1826d3",
+      "migrations_dir": "src/server/db/migrations",
+    },
+  ],
+}
